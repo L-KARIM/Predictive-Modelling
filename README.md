@@ -2,18 +2,18 @@
 
 A machine learning project that predicts heart failure risk using clinical data with an interactive Flask web application.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a machine learning model to predict heart failure death events using clinical records. The model achieves **83.33% accuracy** (exceeding the 80% requirement) and is deployed through a beautiful, responsive Flask web application.
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the Heart Failure Clinical Records Dataset containing:
 - **299 patients** with 12 clinical features
 - **Target variable**: DEATH_EVENT (0 = survived, 1 = death)
 - **Features**: Age, anaemia, creatinine phosphokinase, diabetes, ejection fraction, high blood pressure, platelets, serum creatinine, serum sodium, sex, smoking, time
 
-## 🚀 Features
+##  Features
 
 - **High Accuracy**: 83.33% prediction accuracy using ensemble methods
 - **Interactive Web App**: Beautiful Flask application with custom CSS
@@ -22,7 +22,7 @@ The project uses the Heart Failure Clinical Records Dataset containing:
 - **Professional UI**: Modern design with animations and tooltips
 - **Comprehensive Analysis**: Complete Jupyter notebook with EDA and model comparison
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend**: Flask (Python)
 - **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
@@ -31,7 +31,7 @@ The project uses the Heart Failure Clinical Records Dataset containing:
 - **Visualization**: Matplotlib, Seaborn
 - **Deployment**: Flask development server
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 heart-failure-prediction/
@@ -48,7 +48,7 @@ heart-failure-prediction/
 └── README.md                          # Project documentation
 ```
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -71,7 +71,7 @@ heart-failure-prediction/
    http://localhost:5000
    ```
 
-## 📈 Model Performance
+##  Model Performance
 
 | Model | Accuracy |
 |-------|----------|
@@ -90,7 +90,7 @@ heart-failure-prediction/
 weighted avg       0.85      0.83      0.82        60
 ```
 
-## 🎨 Web Application Features
+##  Web Application Features
 
 - **Patient Demographics**: Age and sex input
 - **Medical Conditions**: Anaemia, diabetes, hypertension, smoking status
@@ -100,7 +100,10 @@ weighted avg       0.85      0.83      0.82        60
 - **Responsive Design**: Mobile-friendly interface
 - **Interactive Elements**: Tooltips, animations, and smooth transitions
 
-## 📊 Key Insights
+ ![Image Alt](https://github.com/L-KARIM/Predictive-Modelling/blob/2fd1c1cb3004f2ec49f370b44061b1eafc08b30a/Screenshot%202025-07-21%20191050.png)
+ ![Image Alt](https://github.com/L-KARIM/Predictive-Modelling/blob/2fd1c1cb3004f2ec49f370b44061b1eafc08b30a/Screenshot%202025-07-21%20191036.png)
+
+##  Key Insights
 
 1. **Most Important Features**:
    - Time (follow-up period)
@@ -113,7 +116,7 @@ weighted avg       0.85      0.83      0.82        60
    - Feature scaling is crucial for optimal results
    - The dataset is moderately imbalanced (68% survival, 32% death)
 
-## 🔬 Usage Example
+##  Usage Example
 
 ### Using the Web Application
 1. Open the web application in your browser
@@ -145,7 +148,7 @@ print(f"Risk: {'High' if prediction == 1 else 'Low'}")
 print(f"Confidence: {confidence*100:.1f}%")
 ```
 
-## 📝 Model Training
+##  Model Training
 
 To retrain the model with new data:
 
@@ -154,7 +157,7 @@ To retrain the model with new data:
 3. **Check performance**: Review the accuracy output
 4. **Update web app**: Restart the Flask application
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - [ ] Add more advanced ML models (XGBoost, Neural Networks)
 - [ ] Implement SHAP for model interpretability
@@ -164,11 +167,11 @@ To retrain the model with new data:
 - [ ] Implement user authentication
 - [ ] Add data visualization dashboard
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -176,12 +179,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact
+##  Contact
 
 KARIM LAAFIF -karim.laaafif@gmail.com
 
 Project Link: [https://github.com/L-KARIM/Predictive-Modelling](https://github.com/L-KARIM/Predictive-Modelling)
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Heart Failure Clinical Records Dataset contributors
 - Scikit-learn community
