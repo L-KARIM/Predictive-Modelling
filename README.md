@@ -167,9 +167,6 @@ To retrain the model with new data:
 - [ ] Implement user authentication
 - [ ] Add data visualization dashboard
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ##  Contributing
 
