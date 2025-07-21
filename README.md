@@ -180,7 +180,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 KARIM LAAFIF -karim.laaafif@gmail.com
 
-Project Link: [https://github.com/yourusername/heart-failure-prediction](https://github.com/L-KARIM/Predictive-Modelling)
+Project Link: [https://github.com/L-KARIM/Predictive-Modelling](https://github.com/L-KARIM/Predictive-Modelling)
 ## 🙏 Acknowledgments
 
 - Heart Failure Clinical Records Dataset contributors
