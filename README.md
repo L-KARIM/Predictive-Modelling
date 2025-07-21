@@ -52,8 +52,8 @@ heart-failure-prediction/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/heart-failure-prediction.git
-   cd heart-failure-prediction
+   git clone https://github.com/L-KARIM/Predictive-Modelling
+   cd Predictive-Modelling
    ```
 
 2. **Install dependencies**
