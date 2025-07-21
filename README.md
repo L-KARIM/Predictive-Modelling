@@ -34,7 +34,7 @@ The project uses the Heart Failure Clinical Records Dataset containing:
 ##  Project Structure
 
 ```
-heart-failure-prediction/
+Predictive-Modelling/
 │
 ├── app.py                                         # Flask application
 ├── heart_failure_prediction.ipynb                 # Jupyter notebook with complete analysis
@@ -151,7 +151,7 @@ print(f"Confidence: {confidence*100:.1f}%")
 
 To retrain the model with new data:
 
-1. **Update the dataset**: Replace `heart_failure_clinical_records_dataset.csv`
+1. **Update the dataset**: Replace `heart_failure_clinical_records_dataset(1).csv`
 2. **Run training script**: `python train_model.py`
 3. **Check performance**: Review the accuracy output
 4. **Update web app**: Restart the Flask application
