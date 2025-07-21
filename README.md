@@ -36,16 +36,15 @@ The project uses the Heart Failure Clinical Records Dataset containing:
 ```
 heart-failure-prediction/
 │
-├── app.py                              # Flask application
-├── heart_failure_prediction.ipynb     # Jupyter notebook with complete analysis
-├── train_model.py                     # Model training script
-├── heart_failure_model.pkl           # Trained model (pickle file)
-├── scaler.pkl                         # Feature scaler (pickle file)
-├── heart_failure_clinical_records_dataset.csv  # Dataset
+├── app.py                                         # Flask application
+├── heart_failure_prediction.ipynb                 # Jupyter notebook with complete analysis
+├── train_model.py                                 # Model training script
+├── heart_failure_model.pkl                        # Trained model (pickle file)
+├── scaler.pkl                                     # Feature scaler (pickle file)
+├── heart_failure_clinical_records_dataset(1).csv  # Dataset
 ├── templates/
-│   └── index.html                     # Web application template
-├── static/                            # Static files (if any)
-└── README.md                          # Project documentation
+│   └── index.html                                 # Web application template
+└── README.md                                      # Project documentation
 ```
 
 ##  Installation & Setup
